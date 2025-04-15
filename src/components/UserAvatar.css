@@ -1,0 +1,22 @@
+/* UserAvatar.css */
+
+.avatar-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar-image {
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .avatar-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 16px;  /* Adjust the size of the icon here */
+    height: 16px;
+    color: #6b7280;  /* Tailwind text-gray-500 */
+  }
+  
