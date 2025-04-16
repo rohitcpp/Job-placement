@@ -2,7 +2,7 @@ const Btn = ({ ButtonName, color }) => {
   return (
     <>
       <button
-        className='border-2   text-2xl text-white w-2/3 p-2 rounded-sm'
+        className='hover:scale-105  text-md text-white w-[50%] p-2 rounded-md shadow'
         style={{ backgroundColor: color }}>
         {ButtonName}
       </button>

@@ -4,7 +4,7 @@ const Inputbox = ({ name }) => {
       <input
         type='text'
         placeholder={name}
-        className='border-2 border-black text-black rounded-sm p-2 w-2/3'
+        className='border-1 border-gray-100 text-black rounded-md p-2 w-[65%] shadow'
       />
     </>
   );
