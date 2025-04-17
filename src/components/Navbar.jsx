@@ -20,19 +20,19 @@ export default function Navbar() {
     <nav className="bg-white shadow-md">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         
-        {/* Left: Logo */}
+        
         <Link href="/" className="text-xl font-bold text-blue-600">
           JobConnect
         </Link>
 
-        {/* Center: Welcome message */}
+        
         <div className="flex-grow text-center">
           <span className="text-sm font-medium text-gray-700">
             Welcome, {username}
           </span>
         </div>
 
-        {/* Right: Links + Avatar */}
+     
         <div className="flex items-center gap-6">
           {navLinks.map((link) => (
             <Link
@@ -51,7 +51,7 @@ export default function Navbar() {
             src="/user.png"
             alt="User Avatar"
             size={10}
-            icon={<ChevronDown className="avatar-icon" />}  // Adding custom class to icon
+            icon={<ChevronDown className="avatar-icon" />}  
           />
         </div>
       </div>

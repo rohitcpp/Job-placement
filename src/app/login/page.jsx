@@ -10,14 +10,21 @@ const Login = () => {
       <div className='flex w-screen h-screen bg-white flex-row'>
         <div className='flex w-[50%] h-screen bg-[#d9e9fc] justify-end items-center'>
           <div className='flex w-[90%] h-[70%] bg-white  rounded-l-xl items-center justify-center '>
-            <div className='flex w-[90%] h-[70%]  flex-col items-center justify-around'>
-              <h1 className='font-bold text-black text-3xl pb-1'>
+            <div className='flex w-[90%] h-[75%]  flex-col items-center justify-around'>
+              <Image
+                src='/logo.png' 
+                alt='Company Logo'
+                width={150} 
+                height={150} 
+                className='mb-4' 
+                />
+              <h1 className='font-bold text-black text-3xl pb-5'>
                 Welcome Back
               </h1>
               <div className='flex w-[100%] items-center justify-center'>
                 <Inputbox name='Email' />
                 <FaEnvelope className='transform -translate-x-6 text-gray-500' />
-              </div>
+              </div><br/>
               <div className='flex w-[100%]  items-center justify-center'>
                 <Inputbox name='Password' />
                 <FaEye className='transform -translate-x-6 text-gray-500' />

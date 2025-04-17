@@ -1,4 +1,4 @@
-import "./UserAvatar.css";  // Import the CSS file
+import "./UserAvatar.css";  
 
 export default function UserAvatar({ src, alt, size = 12, icon }) {
   return (
