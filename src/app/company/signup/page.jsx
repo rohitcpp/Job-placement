@@ -8,6 +8,7 @@ import {
   FaGlobe,
 } from 'react-icons/fa';
 import Inputbox from '../../../components/auth/inputbox';
+import Image from 'next/image';
 
 const Signup = () => {
   return (
@@ -15,7 +16,12 @@ const Signup = () => {
       <div className='flex w-screen h-screen bg-white flex-row'>
         <div className='flex w-[50%] h-screen bg-[#FDBE3B] justify-end items-center'>
           <div className='flex w-[90%] h-[70%] bg-[#F3F3F3]  rounded-l-xl items-center justify-center transform translate-x-2 '>
-            <img src='/company-login.png' alt='' className='w-[85%] h-[80%]' />
+            <Image
+              src='/company.svg'
+              alt='Wide Image'
+              layout='fill'
+              className='w-full h-auto'
+            />
           </div>
         </div>
 

@@ -1,6 +1,7 @@
 import Btn from '../../components/auth/btn';
 import Inputbox from '../../components/auth/inputbox';
 import { FaUser, FaEye, FaEnvelope, FaArrowRight } from 'react-icons/fa';
+import Image from 'next/image';
 
 const Signup = () => {
   return (
@@ -39,8 +40,14 @@ const Signup = () => {
         </div>
 
         <div className='flex w-[50%] h-screen bg-[#191970] justify-start items-center  '>
-          <div className='flex w-[90%] h-[70%] bg-blue-100  rounded-r-xl items-center justify-center transform -translate-x-2 '>
-            <img src='/login.png' alt='' className='w-[85%] h-[80%]' />
+          <div className='flex w-[90%] h-[70%] bg-blue-50  rounded-r-xl items-center justify-center transform -translate-x-2 '>
+            <Image
+              src='/login.png'
+              alt='Wide Image'
+              width={1200}
+              height={600}
+              className='w-full h-auto'
+            />
           </div>
         </div>
       </div>
